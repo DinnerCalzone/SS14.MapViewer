@@ -1,0 +1,31 @@
+{
+	"maps": [
+		{"name": "Amber", "id": "Amber"},
+        {"name": "Atlas", "id": "Atlas"},
+		{"name": "Bagel", "id": "Bagel"},
+		{"name": "Banana", "id": "Banana"},
+		{"name": "Barratry", "id": "Barratry"},
+		{"name": "Boat", "id": "Boat"},
+		{"name": "Box", "id": "Box"},
+		{"name": "Cluster", "id": "Cluster"},
+		{"name": "Cog", "id": "Cog"},
+		{"name": "Core", "id": "Core"},
+		{"name": "E1M1", "id": "E1M1"},
+		{"name": "Fland", "id": "Fland"},
+		{"name": "Gate", "id": "Gate"},
+        {"name": "Hummingbird", "id": "Hummingbird"},
+		{"name": "Lilboat", "id": "Lilboat"},
+		{"name": "Marathon", "id": "Marathon"},
+		{"name": "Meta", "id": "Meta"},
+		{"name": "Oasis", "id": "Oasis"},
+		{"name": "Omega", "id": "Omega"},
+		{"name": "Origin", "id": "Origin"},
+		{"name": "Packed", "id": "Packed"},
+		{"name": "Reach", "id": "Reach"},
+		{"name": "Saltern", "id": "Saltern"},
+		{"name": "Train", "id": "Train"},
+		{"name": "Union", "id": "Union"},
+		{"name": "Xeno", "id": "Xeno"},
+	...
+	]
+}
