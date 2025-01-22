@@ -25,7 +25,6 @@
 		{"name": "Saltern", "id": "Saltern"},
 		{"name": "Train", "id": "Train"},
 		{"name": "Union", "id": "Union"},
-		{"name": "Xeno", "id": "Xeno"},
-	...
+		{"name": "Xeno", "id": "Xeno"}
 	]
 }

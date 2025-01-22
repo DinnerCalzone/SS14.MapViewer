@@ -1,16 +1,16 @@
 {
-    "id": "Train", //(Must be the same as the folder name)
+    "id": "Train",
     "name": "Train",
-    "grids": [ //Maps can contain multiple grids
+    "grids": [
         {
-            "gridId": "854", //The grid id is used for positioning markers relative to a grid
-            "offset": { //Every grid other than the first one is positioned on the map accordng the their offset
+            "gridId": "854",
+            "offset": {
                 "x": 83.37305,
                 "y": -861.07245
             },
-            "tiled": false, //Whether the map uses tiles instead of one image (Not yet implemented!)
-            "url": "Train\\Train-0.webp", //The url to the map image used. Can be an external url
-            "extent": { //The size of the image in px
+            "tiled": false,
+            "url": "Train\\Train-0.png",
+            "extent": {
                 "a": {
                     "x": 0.0,
                     "y": 0.0
@@ -33,12 +33,11 @@
                 "x": 0.0,
                 "y": 0.0
             },
-            "static": false, //If a parallax is marked as static it doesn't tile and doesn't use layers
-            "minScale": null, //Defaults to 1
+            "static": false,
+            "minScale": null,
             "source": {
                 "url": "https://i.imgur.com/3YO8KRd.png",
                 "extent": {
-                      //The size of the image in px
                       "a": {
                         "x": 0.0,
                         "y": 0.0
@@ -52,16 +51,15 @@
             "layers": [
                 {
                     "url": "https://i.imgur.com/IannmmK.png",
-                    "composition": "source-over", //see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation
+                    "composition": "source-over",
                     "parallaxScale": {
                         "x": 0.1,
                         "y": 0.1
                     }
-                },
-                ...
+                }
             ]
-        }
-		{ //A simple parallax layer
+        },
+		{
 			 "scale": {
                 "x": 0.1,
                 "y": 0.1
@@ -75,7 +73,6 @@
             "source": {
                 "url": "https://i.imgur.com/3YO8KRd.png",
                 "extent": {
-                    //The size of the image in px
                     "a": {
                       "x": 0.0,
                       "y": 0.0
